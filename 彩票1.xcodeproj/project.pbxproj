@@ -1,0 +1,942 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B232E63A1BB17DAE0033CA2D /* TBCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B232E6391BB17DAE0033CA2D /* TBCollectionViewController.m */; };
+		B253BA041BAFDCD30085B940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B253BA031BAFDCD30085B940 /* Assets.xcassets */; };
+		B253BA2B1BAFE02A0085B940 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B253BA241BAFE02A0085B940 /* AppDelegate.m */; };
+		B253BA2C1BAFE02A0085B940 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B253BA251BAFE02A0085B940 /* main.m */; };
+		B253BA741BB01C190085B940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B253BA721BB01C190085B940 /* LaunchScreen.storyboard */; };
+		B253BA771BB01CAA0085B940 /* TBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B253BA761BB01CAA0085B940 /* TBTabBarController.m */; };
+		B253BA7A1BB01CC90085B940 /* TBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B253BA791BB01CC90085B940 /* TBNavigationController.m */; };
+		B259786C1BB2A15D007257D1 /* TBMyLotteryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B259786B1BB2A15D007257D1 /* TBMyLotteryController.xib */; };
+		B26DA8BC1BB248B400086A1D /* TBCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B26DA8BB1BB248B400086A1D /* TBCollectionViewCell.m */; };
+		B26DA8BF1BB2511100086A1D /* TBArenaNavCon.m in Sources */ = {isa = PBXBuildFile; fileRef = B26DA8BE1BB2511100086A1D /* TBArenaNavCon.m */; };
+		B26DA8C11BB257DC00086A1D /* TBDiscoveryController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26DA8C01BB257DC00086A1D /* TBDiscoveryController.storyboard */; };
+		B26DA8C51BB286BC00086A1D /* TBGroupTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26DA8C31BB286BC00086A1D /* TBGroupTableController.m */; };
+		B26F250B1BB021E1008AE379 /* TBHallController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F250A1BB021E1008AE379 /* TBHallController.m */; };
+		B26F250E1BB021F5008AE379 /* TBHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F250D1BB021F5008AE379 /* TBHistoryController.m */; };
+		B26F25141BB0224B008AE379 /* TBDiscoveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F25131BB0224B008AE379 /* TBDiscoveryController.m */; };
+		B26F25171BB02265008AE379 /* TBArenaController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F25161BB02265008AE379 /* TBArenaController.m */; };
+		B26F251A1BB02280008AE379 /* TBMyLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F25191BB02280008AE379 /* TBMyLotteryController.m */; };
+		B26F251D1BB02894008AE379 /* TBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F251C1BB02894008AE379 /* TBTabBar.m */; };
+		B29212231BB2DE0B00E26B0A /* UIView+TBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B29212221BB2DE0B00E26B0A /* UIView+TBFrame.m */; };
+		B29212251BB2DF5500E26B0A /* TBTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B29212241BB2DF5500E26B0A /* TBTitleButton.m */; };
+		B29CFEC01BB040EF002720DE /* TBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B29CFEBF1BB040EF002720DE /* TBButton.m */; };
+		B29CFEC41BB04F14002720DE /* UIImage+TBOriginImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B29CFEC31BB04F14002720DE /* UIImage+TBOriginImage.m */; };
+		B29CFEC71BB05044002720DE /* TBCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = B29CFEC61BB05044002720DE /* TBCoverView.m */; };
+		B29CFECA1BB05564002720DE /* TBXiaoPingGuo.m in Sources */ = {isa = PBXBuildFile; fileRef = B29CFEC91BB05564002720DE /* TBXiaoPingGuo.m */; };
+		B2EB0D271BAF8BCB00ADA791 /* __1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EB0D261BAF8BCB00ADA791 /* __1Tests.m */; };
+		B2EB0D321BAF8BCB00ADA791 /* __1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EB0D311BAF8BCB00ADA791 /* __1UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2EB0D231BAF8BCB00ADA791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2EB0D011BAF8BCA00ADA791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2EB0D081BAF8BCB00ADA791;
+			remoteInfo = "彩票1";
+		};
+		B2EB0D2E1BAF8BCB00ADA791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2EB0D011BAF8BCA00ADA791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2EB0D081BAF8BCB00ADA791;
+			remoteInfo = "彩票1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B232E6381BB17DAE0033CA2D /* TBCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCollectionViewController.h; sourceTree = "<group>"; };
+		B232E6391BB17DAE0033CA2D /* TBCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCollectionViewController.m; sourceTree = "<group>"; };
+		B253BA031BAFDCD30085B940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B253BA231BAFE02A0085B940 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B253BA241BAFE02A0085B940 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B253BA251BAFE02A0085B940 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B253BA731BB01C190085B940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B253BA751BB01CAA0085B940 /* TBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBTabBarController.h; sourceTree = "<group>"; };
+		B253BA761BB01CAA0085B940 /* TBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBTabBarController.m; sourceTree = "<group>"; };
+		B253BA781BB01CC90085B940 /* TBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBNavigationController.h; sourceTree = "<group>"; };
+		B253BA791BB01CC90085B940 /* TBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBNavigationController.m; sourceTree = "<group>"; };
+		B259786B1BB2A15D007257D1 /* TBMyLotteryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TBMyLotteryController.xib; path = ../Controller/TBMyLotteryController.xib; sourceTree = "<group>"; };
+		B26DA8BA1BB248B400086A1D /* TBCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCollectionViewCell.h; sourceTree = "<group>"; };
+		B26DA8BB1BB248B400086A1D /* TBCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCollectionViewCell.m; sourceTree = "<group>"; };
+		B26DA8BD1BB2511100086A1D /* TBArenaNavCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBArenaNavCon.h; sourceTree = "<group>"; };
+		B26DA8BE1BB2511100086A1D /* TBArenaNavCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBArenaNavCon.m; sourceTree = "<group>"; };
+		B26DA8C01BB257DC00086A1D /* TBDiscoveryController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = TBDiscoveryController.storyboard; path = "彩票1/Classes/Discover(发现)/Controller/TBDiscoveryController.storyboard"; sourceTree = SOURCE_ROOT; };
+		B26DA8C21BB286BC00086A1D /* TBGroupTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBGroupTableController.h; sourceTree = "<group>"; };
+		B26DA8C31BB286BC00086A1D /* TBGroupTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBGroupTableController.m; sourceTree = "<group>"; };
+		B26F25091BB021E1008AE379 /* TBHallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHallController.h; sourceTree = "<group>"; };
+		B26F250A1BB021E1008AE379 /* TBHallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHallController.m; sourceTree = "<group>"; };
+		B26F250C1BB021F5008AE379 /* TBHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHistoryController.h; sourceTree = "<group>"; };
+		B26F250D1BB021F5008AE379 /* TBHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHistoryController.m; sourceTree = "<group>"; };
+		B26F25121BB0224B008AE379 /* TBDiscoveryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBDiscoveryController.h; sourceTree = "<group>"; };
+		B26F25131BB0224B008AE379 /* TBDiscoveryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBDiscoveryController.m; sourceTree = "<group>"; };
+		B26F25151BB02265008AE379 /* TBArenaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBArenaController.h; sourceTree = "<group>"; };
+		B26F25161BB02265008AE379 /* TBArenaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBArenaController.m; sourceTree = "<group>"; };
+		B26F25181BB02280008AE379 /* TBMyLotteryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMyLotteryController.h; sourceTree = "<group>"; };
+		B26F25191BB02280008AE379 /* TBMyLotteryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMyLotteryController.m; sourceTree = "<group>"; };
+		B26F251B1BB02894008AE379 /* TBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBTabBar.h; path = ../Controller/TBTabBar.h; sourceTree = "<group>"; };
+		B26F251C1BB02894008AE379 /* TBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBTabBar.m; path = ../Controller/TBTabBar.m; sourceTree = "<group>"; };
+		B29212191BB2DA8A00E26B0A /* TBTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBTitleButton.h; sourceTree = "<group>"; };
+		B29212211BB2DE0B00E26B0A /* UIView+TBFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TBFrame.h"; sourceTree = "<group>"; };
+		B29212221BB2DE0B00E26B0A /* UIView+TBFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TBFrame.m"; sourceTree = "<group>"; };
+		B29212241BB2DF5500E26B0A /* TBTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBTitleButton.m; sourceTree = "<group>"; };
+		B29CFEBE1BB040EF002720DE /* TBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBButton.h; sourceTree = "<group>"; };
+		B29CFEBF1BB040EF002720DE /* TBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBButton.m; sourceTree = "<group>"; };
+		B29CFEC21BB04F14002720DE /* UIImage+TBOriginImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBOriginImage.h"; sourceTree = "<group>"; };
+		B29CFEC31BB04F14002720DE /* UIImage+TBOriginImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBOriginImage.m"; sourceTree = "<group>"; };
+		B29CFEC51BB05044002720DE /* TBCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCoverView.h; sourceTree = "<group>"; };
+		B29CFEC61BB05044002720DE /* TBCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCoverView.m; sourceTree = "<group>"; };
+		B29CFEC81BB05564002720DE /* TBXiaoPingGuo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXiaoPingGuo.h; sourceTree = "<group>"; };
+		B29CFEC91BB05564002720DE /* TBXiaoPingGuo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXiaoPingGuo.m; sourceTree = "<group>"; };
+		B2EB0D091BAF8BCB00ADA791 /* 彩票1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "彩票1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EB0D1D1BAF8BCB00ADA791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2EB0D221BAF8BCB00ADA791 /* 彩票1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "彩票1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EB0D261BAF8BCB00ADA791 /* __1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __1Tests.m; sourceTree = "<group>"; };
+		B2EB0D281BAF8BCB00ADA791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2EB0D2D1BAF8BCB00ADA791 /* 彩票1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "彩票1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EB0D311BAF8BCB00ADA791 /* __1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __1UITests.m; sourceTree = "<group>"; };
+		B2EB0D331BAF8BCB00ADA791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2EB0D061BAF8BCB00ADA791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EB0D1F1BAF8BCB00ADA791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EB0D2A1BAF8BCB00ADA791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B232E6311BB17D5C0033CA2D /* New Feature */ = {
+			isa = PBXGroup;
+			children = (
+				B232E6321BB17D5C0033CA2D /* Controller */,
+				B232E6331BB17D5C0033CA2D /* Model */,
+				B232E6341BB17D5C0033CA2D /* View */,
+			);
+			name = "New Feature";
+			path = "Arena(竞技场)/View/New Feature";
+			sourceTree = "<group>";
+		};
+		B232E6321BB17D5C0033CA2D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B232E6381BB17DAE0033CA2D /* TBCollectionViewController.h */,
+				B232E6391BB17DAE0033CA2D /* TBCollectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B232E6331BB17D5C0033CA2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B232E6341BB17D5C0033CA2D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B26DA8BA1BB248B400086A1D /* TBCollectionViewCell.h */,
+				B26DA8BB1BB248B400086A1D /* TBCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B253BA051BAFE02A0085B940 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B232E6311BB17D5C0033CA2D /* New Feature */,
+				B253BA061BAFE02A0085B940 /* Arena(竞技场) */,
+				B253BA0A1BAFE02A0085B940 /* Discover(发现) */,
+				B253BA0E1BAFE02A0085B940 /* Hall(购彩大厅) */,
+				B253BA121BAFE02A0085B940 /* History(开奖信息) */,
+				B253BA161BAFE02A0085B940 /* Main(主要) */,
+				B253BA1A1BAFE02A0085B940 /* MyLottery(我的彩票) */,
+				B253BA1E1BAFE02A0085B940 /* NewFeature(新特性) */,
+				B253BA221BAFE02A0085B940 /* Other */,
+				B253BA261BAFE02A0085B940 /* Setting(设置) */,
+				B253BA2A1BAFE02A0085B940 /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B253BA061BAFE02A0085B940 /* Arena(竞技场) */ = {
+			isa = PBXGroup;
+			children = (
+				B253BA071BAFE02A0085B940 /* Controller */,
+				B253BA081BAFE02A0085B940 /* Model */,
+				B253BA091BAFE02A0085B940 /* View */,
+			);
+			path = "Arena(竞技场)";
+			sourceTree = "<group>";
+		};
+		B253BA071BAFE02A0085B940 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B26F25151BB02265008AE379 /* TBArenaController.h */,
+				B26F25161BB02265008AE379 /* TBArenaController.m */,
+				B26DA8BD1BB2511100086A1D /* TBArenaNavCon.h */,
+				B26DA8BE1BB2511100086A1D /* TBArenaNavCon.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B253BA081BAFE02A0085B940 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B253BA091BAFE02A0085B940 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B253BA0A1BAFE02A0085B940 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				B253BA0B1BAFE02A0085B940 /* Controller */,
+				B253BA0C1BAFE02A0085B940 /* Model */,
+				B253BA0D1BAFE02A0085B940 /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		B253BA0B1BAFE02A0085B940 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B26F25121BB0224B008AE379 /* TBDiscoveryController.h */,
+				B26F25131BB0224B008AE379 /* TBDiscoveryController.m */,
+				B26DA8C21BB286BC00086A1D /* TBGroupTableController.h */,
+				B26DA8C31BB286BC00086A1D /* TBGroupTableController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B253BA0C1BAFE02A0085B940 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B253BA0D1BAFE02A0085B940 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B26DA8C01BB257DC00086A1D /* TBDiscoveryController.storyboard */,
+				B29212241BB2DF5500E26B0A /* TBTitleButton.m */,
+				B29212191BB2DA8A00E26B0A /* TBTitleButton.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B253BA0E1BAFE02A0085B940 /* Hall(购彩大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				B253BA0F1BAFE02A0085B940 /* Controller */,
+				B253BA101BAFE02A0085B940 /* Model */,
+				B253BA111BAFE02A0085B940 /* View */,
+			);
+			path = "Hall(购彩大厅)";
+			sourceTree = "<group>";
+		};
+		B253BA0F1BAFE02A0085B940 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B26F25091BB021E1008AE379 /* TBHallController.h */,
+				B26F250A1BB021E1008AE379 /* TBHallController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B253BA101BAFE02A0085B940 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B253BA111BAFE02A0085B940 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B29CFEC51BB05044002720DE /* TBCoverView.h */,
+				B29CFEC61BB05044002720DE /* TBCoverView.m */,
+				B29CFEC81BB05564002720DE /* TBXiaoPingGuo.h */,
+				B29CFEC91BB05564002720DE /* TBXiaoPingGuo.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B253BA121BAFE02A0085B940 /* History(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				B253BA131BAFE02A0085B940 /* Controller */,
+				B253BA141BAFE02A0085B940 /* Model */,
+				B253BA151BAFE02A0085B940 /* View */,
+			);
+			path = "History(开奖信息)";
+			sourceTree = "<group>";
+		};
+		B253BA131BAFE02A0085B940 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B26F250C1BB021F5008AE379 /* TBHistoryController.h */,
+				B26F250D1BB021F5008AE379 /* TBHistoryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B253BA141BAFE02A0085B940 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B253BA151BAFE02A0085B940 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B253BA161BAFE02A0085B940 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				B253BA171BAFE02A0085B940 /* Controller */,
+				B253BA181BAFE02A0085B940 /* Model */,
+				B253BA191BAFE02A0085B940 /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		B253BA171BAFE02A0085B940 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B253BA751BB01CAA0085B940 /* TBTabBarController.h */,
+				B253BA761BB01CAA0085B940 /* TBTabBarController.m */,
+				B253BA781BB01CC90085B940 /* TBNavigationController.h */,
+				B253BA791BB01CC90085B940 /* TBNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B253BA181BAFE02A0085B940 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B253BA191BAFE02A0085B940 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B26F251B1BB02894008AE379 /* TBTabBar.h */,
+				B26F251C1BB02894008AE379 /* TBTabBar.m */,
+				B29CFEBE1BB040EF002720DE /* TBButton.h */,
+				B29CFEBF1BB040EF002720DE /* TBButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B253BA1A1BAFE02A0085B940 /* MyLottery(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				B253BA1B1BAFE02A0085B940 /* Controller */,
+				B253BA1C1BAFE02A0085B940 /* Model */,
+				B253BA1D1BAFE02A0085B940 /* View */,
+			);
+			path = "MyLottery(我的彩票)";
+			sourceTree = "<group>";
+		};
+		B253BA1B1BAFE02A0085B940 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B26F25181BB02280008AE379 /* TBMyLotteryController.h */,
+				B26F25191BB02280008AE379 /* TBMyLotteryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B253BA1C1BAFE02A0085B940 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B253BA1D1BAFE02A0085B940 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B259786B1BB2A15D007257D1 /* TBMyLotteryController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B253BA1E1BAFE02A0085B940 /* NewFeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				B253BA1F1BAFE02A0085B940 /* Controller */,
+				B253BA201BAFE02A0085B940 /* Model */,
+				B253BA211BAFE02A0085B940 /* View */,
+			);
+			path = "NewFeature(新特性)";
+			sourceTree = "<group>";
+		};
+		B253BA1F1BAFE02A0085B940 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B253BA201BAFE02A0085B940 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B253BA211BAFE02A0085B940 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B253BA221BAFE02A0085B940 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B29CFEC11BB04F02002720DE /* Category */,
+				B253BA231BAFE02A0085B940 /* AppDelegate.h */,
+				B253BA241BAFE02A0085B940 /* AppDelegate.m */,
+				B253BA251BAFE02A0085B940 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B253BA261BAFE02A0085B940 /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				B253BA271BAFE02A0085B940 /* Controller */,
+				B253BA281BAFE02A0085B940 /* Model */,
+				B253BA291BAFE02A0085B940 /* View */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		B253BA271BAFE02A0085B940 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B253BA281BAFE02A0085B940 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B253BA291BAFE02A0085B940 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B253BA2A1BAFE02A0085B940 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		B29CFEC11BB04F02002720DE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B29CFEC21BB04F14002720DE /* UIImage+TBOriginImage.h */,
+				B29CFEC31BB04F14002720DE /* UIImage+TBOriginImage.m */,
+				B29212211BB2DE0B00E26B0A /* UIView+TBFrame.h */,
+				B29212221BB2DE0B00E26B0A /* UIView+TBFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B2EB0D001BAF8BCA00ADA791 = {
+			isa = PBXGroup;
+			children = (
+				B2EB0D0B1BAF8BCB00ADA791 /* 彩票1 */,
+				B2EB0D251BAF8BCB00ADA791 /* 彩票1Tests */,
+				B2EB0D301BAF8BCB00ADA791 /* 彩票1UITests */,
+				B2EB0D0A1BAF8BCB00ADA791 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2EB0D0A1BAF8BCB00ADA791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2EB0D091BAF8BCB00ADA791 /* 彩票1.app */,
+				B2EB0D221BAF8BCB00ADA791 /* 彩票1Tests.xctest */,
+				B2EB0D2D1BAF8BCB00ADA791 /* 彩票1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2EB0D0B1BAF8BCB00ADA791 /* 彩票1 */ = {
+			isa = PBXGroup;
+			children = (
+				B253BA051BAFE02A0085B940 /* Classes */,
+				B2EB0D1D1BAF8BCB00ADA791 /* Info.plist */,
+				B253BA721BB01C190085B940 /* LaunchScreen.storyboard */,
+				B253BA031BAFDCD30085B940 /* Assets.xcassets */,
+				B2EB0D0C1BAF8BCB00ADA791 /* Supporting Files */,
+			);
+			path = "彩票1";
+			sourceTree = "<group>";
+		};
+		B2EB0D0C1BAF8BCB00ADA791 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2EB0D251BAF8BCB00ADA791 /* 彩票1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B2EB0D261BAF8BCB00ADA791 /* __1Tests.m */,
+				B2EB0D281BAF8BCB00ADA791 /* Info.plist */,
+			);
+			path = "彩票1Tests";
+			sourceTree = "<group>";
+		};
+		B2EB0D301BAF8BCB00ADA791 /* 彩票1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2EB0D311BAF8BCB00ADA791 /* __1UITests.m */,
+				B2EB0D331BAF8BCB00ADA791 /* Info.plist */,
+			);
+			path = "彩票1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2EB0D081BAF8BCB00ADA791 /* 彩票1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EB0D361BAF8BCB00ADA791 /* Build configuration list for PBXNativeTarget "彩票1" */;
+			buildPhases = (
+				B2EB0D051BAF8BCB00ADA791 /* Sources */,
+				B2EB0D061BAF8BCB00ADA791 /* Frameworks */,
+				B2EB0D071BAF8BCB00ADA791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "彩票1";
+			productName = "彩票1";
+			productReference = B2EB0D091BAF8BCB00ADA791 /* 彩票1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2EB0D211BAF8BCB00ADA791 /* 彩票1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EB0D391BAF8BCB00ADA791 /* Build configuration list for PBXNativeTarget "彩票1Tests" */;
+			buildPhases = (
+				B2EB0D1E1BAF8BCB00ADA791 /* Sources */,
+				B2EB0D1F1BAF8BCB00ADA791 /* Frameworks */,
+				B2EB0D201BAF8BCB00ADA791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2EB0D241BAF8BCB00ADA791 /* PBXTargetDependency */,
+			);
+			name = "彩票1Tests";
+			productName = "彩票1Tests";
+			productReference = B2EB0D221BAF8BCB00ADA791 /* 彩票1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2EB0D2C1BAF8BCB00ADA791 /* 彩票1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EB0D3C1BAF8BCB00ADA791 /* Build configuration list for PBXNativeTarget "彩票1UITests" */;
+			buildPhases = (
+				B2EB0D291BAF8BCB00ADA791 /* Sources */,
+				B2EB0D2A1BAF8BCB00ADA791 /* Frameworks */,
+				B2EB0D2B1BAF8BCB00ADA791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2EB0D2F1BAF8BCB00ADA791 /* PBXTargetDependency */,
+			);
+			name = "彩票1UITests";
+			productName = "彩票1UITests";
+			productReference = B2EB0D2D1BAF8BCB00ADA791 /* 彩票1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2EB0D011BAF8BCA00ADA791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TB;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = XMG;
+				TargetAttributes = {
+					B2EB0D081BAF8BCB00ADA791 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B2EB0D211BAF8BCB00ADA791 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B2EB0D081BAF8BCB00ADA791;
+					};
+					B2EB0D2C1BAF8BCB00ADA791 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B2EB0D081BAF8BCB00ADA791;
+					};
+				};
+			};
+			buildConfigurationList = B2EB0D041BAF8BCA00ADA791 /* Build configuration list for PBXProject "彩票1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2EB0D001BAF8BCA00ADA791;
+			productRefGroup = B2EB0D0A1BAF8BCB00ADA791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2EB0D081BAF8BCB00ADA791 /* 彩票1 */,
+				B2EB0D211BAF8BCB00ADA791 /* 彩票1Tests */,
+				B2EB0D2C1BAF8BCB00ADA791 /* 彩票1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2EB0D071BAF8BCB00ADA791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B253BA041BAFDCD30085B940 /* Assets.xcassets in Resources */,
+				B259786C1BB2A15D007257D1 /* TBMyLotteryController.xib in Resources */,
+				B26DA8C11BB257DC00086A1D /* TBDiscoveryController.storyboard in Resources */,
+				B253BA741BB01C190085B940 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EB0D201BAF8BCB00ADA791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EB0D2B1BAF8BCB00ADA791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2EB0D051BAF8BCB00ADA791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29212231BB2DE0B00E26B0A /* UIView+TBFrame.m in Sources */,
+				B253BA2C1BAFE02A0085B940 /* main.m in Sources */,
+				B232E63A1BB17DAE0033CA2D /* TBCollectionViewController.m in Sources */,
+				B26F251D1BB02894008AE379 /* TBTabBar.m in Sources */,
+				B253BA7A1BB01CC90085B940 /* TBNavigationController.m in Sources */,
+				B29CFEC71BB05044002720DE /* TBCoverView.m in Sources */,
+				B29CFEC41BB04F14002720DE /* UIImage+TBOriginImage.m in Sources */,
+				B26F250E1BB021F5008AE379 /* TBHistoryController.m in Sources */,
+				B29CFEC01BB040EF002720DE /* TBButton.m in Sources */,
+				B253BA2B1BAFE02A0085B940 /* AppDelegate.m in Sources */,
+				B29CFECA1BB05564002720DE /* TBXiaoPingGuo.m in Sources */,
+				B26F251A1BB02280008AE379 /* TBMyLotteryController.m in Sources */,
+				B26F25141BB0224B008AE379 /* TBDiscoveryController.m in Sources */,
+				B26F250B1BB021E1008AE379 /* TBHallController.m in Sources */,
+				B253BA771BB01CAA0085B940 /* TBTabBarController.m in Sources */,
+				B26DA8BF1BB2511100086A1D /* TBArenaNavCon.m in Sources */,
+				B26DA8BC1BB248B400086A1D /* TBCollectionViewCell.m in Sources */,
+				B26DA8C51BB286BC00086A1D /* TBGroupTableController.m in Sources */,
+				B29212251BB2DF5500E26B0A /* TBTitleButton.m in Sources */,
+				B26F25171BB02265008AE379 /* TBArenaController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EB0D1E1BAF8BCB00ADA791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EB0D271BAF8BCB00ADA791 /* __1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EB0D291BAF8BCB00ADA791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EB0D321BAF8BCB00ADA791 /* __1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2EB0D241BAF8BCB00ADA791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2EB0D081BAF8BCB00ADA791 /* 彩票1 */;
+			targetProxy = B2EB0D231BAF8BCB00ADA791 /* PBXContainerItemProxy */;
+		};
+		B2EB0D2F1BAF8BCB00ADA791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2EB0D081BAF8BCB00ADA791 /* 彩票1 */;
+			targetProxy = B2EB0D2E1BAF8BCB00ADA791 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B253BA721BB01C190085B940 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B253BA731BB01C190085B940 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2EB0D341BAF8BCB00ADA791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2EB0D351BAF8BCB00ADA791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2EB0D371BAF8BCB00ADA791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "彩票1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.--1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2EB0D381BAF8BCB00ADA791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "彩票1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.--1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2EB0D3A1BAF8BCB00ADA791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "彩票1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.--1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/彩票1.app/彩票1";
+			};
+			name = Debug;
+		};
+		B2EB0D3B1BAF8BCB00ADA791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "彩票1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.--1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/彩票1.app/彩票1";
+			};
+			name = Release;
+		};
+		B2EB0D3D1BAF8BCB00ADA791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "彩票1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.--1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "彩票1";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B2EB0D3E1BAF8BCB00ADA791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "彩票1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.--1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "彩票1";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2EB0D041BAF8BCA00ADA791 /* Build configuration list for PBXProject "彩票1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EB0D341BAF8BCB00ADA791 /* Debug */,
+				B2EB0D351BAF8BCB00ADA791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EB0D361BAF8BCB00ADA791 /* Build configuration list for PBXNativeTarget "彩票1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EB0D371BAF8BCB00ADA791 /* Debug */,
+				B2EB0D381BAF8BCB00ADA791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EB0D391BAF8BCB00ADA791 /* Build configuration list for PBXNativeTarget "彩票1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EB0D3A1BAF8BCB00ADA791 /* Debug */,
+				B2EB0D3B1BAF8BCB00ADA791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EB0D3C1BAF8BCB00ADA791 /* Build configuration list for PBXNativeTarget "彩票1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EB0D3D1BAF8BCB00ADA791 /* Debug */,
+				B2EB0D3E1BAF8BCB00ADA791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2EB0D011BAF8BCA00ADA791 /* Project object */;
+}
